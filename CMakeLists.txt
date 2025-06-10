@@ -63,6 +63,7 @@ target_link_libraries(synth_audio
         hardware_adc
         hardware_dma
         hardware_pwm
+        hardware_i2c
 )
 
 pico_add_extra_outputs(synth_audio)
